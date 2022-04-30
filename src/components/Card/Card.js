@@ -16,7 +16,7 @@ const Card = ({
     setIsFavoured(!isFavoured)
   }
 
-  return <div className="card">
+  return <article className="card">
     <div className="card-header">
       <img src={image.url} alt={image.alt} className="card-img" />
       <button
@@ -35,7 +35,7 @@ const Card = ({
       <p>{phone}</p>
       <p>{email}</p>
     </div>
-  </div>;
+  </article>;
 };
 
 export default Card
